@@ -6,7 +6,7 @@
  
  Simply copy the JAR file to a location that works for you, then in a terminal, type "sudo java -jar CyberGhostGUI.jar". I made a script in the /usr/bin folder called "cyberghostgui" that contained:
 
- #!/bin/bash
+#!/bin/bash
 /usr/bin/java -jar /opt/pizzaMan5000/CyberGhostGUI.jar
 
 Change the last part of last line to the location of the file on your computer. Now you can run it by typing "sudo cyberghostgui &". If nothing happens, it's because the "&" doesn't work with sudo asking for a password. If that happens, just type "sudo ls" and enter your password, then type "sudo cyberghostgui &". You can close the terminal after it is running.
